@@ -10,7 +10,7 @@ using namespace std;
  */
 
 string timeConversion(string s) {
-    string hora = s.substr();
+    string hora = s.substr(0, 2);
 
     int horaInt = stoi(hora);
 
